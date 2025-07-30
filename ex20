@@ -1,0 +1,24 @@
+ex20
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let dia = prompt("Digite o nome do dia da semana:").toLowerCase();
+if (["sábado", "domingo"].includes(dia)) {
+  alert("Fim de semana");
+} else if (
+  ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"].includes(dia)
+) {
+  alert("Dia útil");
+} else {
+  alert("Dia inválido");
+}
+    </script>
+    
+</body>
+</html>
