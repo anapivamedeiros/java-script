@@ -1,0 +1,24 @@
+ex22
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let a = Number(prompt("Digite o primeiro número:"));
+let b = Number(prompt("Digite o segundo número:"));
+
+if (a > b) {
+  alert("O maior número é: " + a);
+} else if (b > a) {
+  alert("O maior número é: " + b);
+} else {
+  alert("Os números são iguais");
+}
+    </script>
+    
+</body>
+</html>
