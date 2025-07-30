@@ -1,0 +1,24 @@
+ex23
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let x = Number(prompt("Digite o primeiro número:"));
+let y = Number(prompt("Digite o segundo número:"));
+let z = Number(prompt("Digite o terceiro número:"));
+
+let maior = x;
+if (y > maior) maior = y;
+if (z > maior) maior = z;
+
+alert("O maior número é: " + maior);os são iguais");
+}
+    </script>
+    
+</body>
+</html>
