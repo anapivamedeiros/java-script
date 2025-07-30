@@ -1,0 +1,19 @@
+ex11
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let valorDolar = Number(prompt("Valor em dólares (US$):"));
+let cotacao = Number(prompt("Cotação do dólar (R$):"));
+
+let valorReal = valorDolar * cotacao;
+alert("Valor em reais: R$ " + valorReal.toFixed(2));
+    </script>
+    
+</body>
+</html>
