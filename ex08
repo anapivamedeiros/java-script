@@ -1,0 +1,25 @@
+ex08
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let salarioInicial = Number(prompt("Salário inicial (R$):"));
+let aumento = salarioInicial * 0.15;
+let salarioComAumento = salarioInicial + aumento;
+let imposto = salarioComAumento * 0.08;
+let salarioFinal = salarioComAumento - imposto;
+
+alert(
+  "Salário inicial: R$ " + salarioInicial.toFixed(2) +
+  "\nSalário com aumento: R$ " + salarioComAumento.toFixed(2) +
+  "\nSalário final (com desconto de 8%): R$ " + salarioFinal.toFixed(2)
+);
+    </script>
+    
+</body>
+</html>
