@@ -1,0 +1,20 @@
+ex07
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let qtdP = Number(prompt("Quantidade de camisetas pequenas:"));
+let qtdM = Number(prompt("Quantidade de camisetas médias:"));
+let qtdG = Number(prompt("Quantidade de camisetas grandes:"));
+
+let valorTotal = (qtdP * 10) + (qtdM * 12) + (qtdG * 15);
+alert("Valor arrecadado: R$ " + valorTotal.toFixed(2));
+    </script>
+    
+</body>
+</html>
