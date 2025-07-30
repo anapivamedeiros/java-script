@@ -1,0 +1,27 @@
+ex26
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let idadePessoa2 = Number(prompt("Digite sua idade:"));
+let valorCompra = Number(prompt("Valor da compra (R$):"));
+let valorFinal;
+
+if (idadePessoa2 <= 12) {
+  valorFinal = valorCompra * 0.5; // 50% de desconto para crianças
+} else if (idadePessoa2 >= 60) {
+  valorFinal = valorCompra * 0.7; // 30% de desconto para idosos
+} else {
+  valorFinal = valorCompra; // Sem desconto para adultos
+}
+
+alert("Valor final a pagar: R$ " + valorFinal.toFixed(2));
+    </script>
+    
+</body>
+</html>
